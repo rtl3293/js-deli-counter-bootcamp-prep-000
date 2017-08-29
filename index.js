@@ -27,7 +27,7 @@ function currentLine(line) {
     }
     return `The line is currently: ` + order
   } else {
-    return 'The line is currently empty.'
+    return 'There is nobody waiting to be served!'
   }
 }
 
