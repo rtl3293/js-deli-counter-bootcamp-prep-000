@@ -19,7 +19,7 @@ function currentLine(line) {
       var name = line[i]
       var spot = i + 1
       var order = `The line is currently: `
-      if (i < line.length - 1) {
+      if (i < line.length - 2) {
         order = order + `${spot}. ${name}, `
       } else {
         order = order + `${spot}. ${name}`
