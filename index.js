@@ -15,12 +15,13 @@ function nowServing(katzDeliLine) {
 
 function currentLine(line) {
   if (line.length > 0) {
+    var order = `The line is currently: `
     for (var i = 0; i < line.length; i++) {
       var name = line[i]
       var spot = i + 1
-      var order = `The line is currently: `
       if (i < line.length - 1) {
         order = order + `${spot}. ${name}, `
+
         console.log(order)
       } else {
         order = order + `${spot}. ${name}`
