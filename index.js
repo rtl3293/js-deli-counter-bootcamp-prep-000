@@ -9,7 +9,7 @@ function nowServing(katzDeliLine) {
     var served = katzDeliLine.shift()
     return `Currently serving ${served}.`
   } else {
-    return 'There is nobody waiting to be served.'
+    return 'There is nobody waiting to be served!'
   }
 }
 
@@ -27,7 +27,7 @@ function currentLine(line) {
     }
     return `The line is currently: ` + order
   } else {
-    return 'There is nobody waiting to be served!'
+    return 'The line is currently empty.'
   }
 }
 
