@@ -21,7 +21,7 @@ function currentLine(line) {
       var order = ``
       if (i < line.length) {
         order = order + `${spot}. ${name}, `
-      } else if (i === line.length - 1) {
+      } else {
         order = order + `${spot}. ${name}`
       }
     }
