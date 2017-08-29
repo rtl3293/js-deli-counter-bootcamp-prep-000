@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, newPerson) {
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
-    var served = katzDeliLine.pop()
+    var served = katzDeliLine.shift()
     return `Currently serving ${served}`
   }
 }
