@@ -25,6 +25,7 @@ function currentLine(line) {
         order = order + `${spot}. ${name}`
       }
     }
+    return `The line is currently: ` + order
   } else {
     return 'The line is currently empty.'
   }
