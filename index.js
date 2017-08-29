@@ -18,14 +18,14 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       var name = line[i]
       var spot = i + 1
-      var order = ``
+      var order = `The line is currently: `
       if (i < line.length) {
         order = order + `${spot}. ${name}, `
       } else {
         order = order + `${spot}. ${name}`
       }
     }
-    return `The line is currently: ` + order
+    return order
   } else {
     return 'The line is currently empty.'
   }
